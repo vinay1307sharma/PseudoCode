@@ -1,0 +1,11 @@
+n = 2
+match n:
+    case 1:
+        print("One")
+    case 2:
+        n = n + 1
+        print("Two")
+    case 3:
+        print("Three")
+    case _:
+        print("Other")
